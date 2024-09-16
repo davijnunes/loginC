@@ -117,12 +117,16 @@ void showUser(){
 
     printf("FIELDS:\n");
 
-    if(user1.firstName[0] >= 'a' && user1.firstName[0] <= 'z')capitalize(user1.firstName);
+    if(user1.firstName[0] >= 'a' && user1.firstName[0] <= 'z')
+        capitalize(user1.firstName);
+        
     printf("\n---------------------------------------\n");
     printf("First name: %s\n",user1.firstName);
     printf("\n---------------------------------------\n");
 
-    if(user1.lastName[0] >= 'a' && user1.lastName[0] <= 'z')capitalize(user1.lastName);
+    if(user1.lastName[0] >= 'a' && user1.lastName[0] <= 'z')
+        capitalize(user1.lastName);
+
     printf("Last name: %s\n",user1.lastName);
     printf("\n---------------------------------------\n");
 
